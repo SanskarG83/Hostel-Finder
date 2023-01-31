@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background7"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="-165dp"
+        android:fontFamily="@font/aclonica"
+        android:paddingBottom="10dp"
+        android:text="Vishwakarma Home - D"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="649dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="-130dp"
+        android:background="#000000"
+        app:srcCompat="@drawable/hostel_logo" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="times"
+        android:text="Address :\nS No 43, Bibwewadi Gaonthan, Pune – 37
+
+"
+        android:textColor="#3D013D"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="15dp"
+        android:background="#E3F5D2D2"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:fontFamily="times"
+        android:text="Click here to go to google maps!"
+        android:textColor="#C20303"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/t2"
+        android:text="Call us at :"
+        android:textSize="20dp"
+        android:fontFamily="times"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_baseline_contact_support_24"
+        android:paddingTop="8dp"
+        android:layout_marginTop="18dp"/>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:background="#22000000"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:fontFamily="times"
+        android:text="020 24202287"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:background="#22000000"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:fontFamily="times"
+        android:text="020 24202230"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#E30D0D0D"
+        android:fontFamily="times"
+        android:text="        Click here to see more images!"
+        android:textColor="#FBFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>

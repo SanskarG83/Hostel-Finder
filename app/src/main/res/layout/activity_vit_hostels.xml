@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="#205511"
+        android:fontFamily="@font/aclonica"
+        android:padding="15dp"
+        android:text="Here you can get Hostels near VIT"
+        android:textColor="#FCFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Vishwakarma Home – A (For boys)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Vishwakarma Home – I (for boys)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Vishwakarma Home – D (for girls)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Vishwakarma Home – K (for boys)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Vishwakarma Home – M (for girls)"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="balaji boys hostel (private)\n500M"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Madhura Girl's Hostel PUNE (private)\n500m"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="fill_parent"
+                android:layout_height="145dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Girls Hostel/Paying Guest near VIT and VIIT college (Private)\n1.6km"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Sumadhu boys hostel (private)\n700m"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="purandar girls hostel\n(private)\n350m"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt11"
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="Hari Om Boy's Hostel\n(private)\n350m"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="l"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt13"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="m"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+            <Button
+                android:id="@+id/bt14"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="n"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt15"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="o"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt16"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="p"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt17"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="q"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bt18"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#64DD5B5B"
+                android:fontFamily="@font/calistoga"
+                android:text="r"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
