@@ -5,3 +5,5 @@ Hostel Finder Demo Video:
 
 https://user-images.githubusercontent.com/100311018/215847179-c8ea6fca-c25d-4aeb-bcff-2a8030fdfe74.mp4
 
+# Getting Started
+
